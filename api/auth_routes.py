@@ -7,7 +7,6 @@ from models.auth_token import validate_token, logout_user
 
 logger = logging.getLogger(__name__)
 
-# Blueprint-объект для группировки маршрутов аутентификации
 auth_bp = Blueprint('auth', __name__)
 
 # Маршрут регистрации

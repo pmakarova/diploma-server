@@ -1,6 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from flask import g # для хранения общих данных во время запроса
+
+from flask import g
 import logging
 import sqlite3
 
